@@ -1,5 +1,19 @@
-node_modules
-dist
-out/
+# dependencies
+node_modules/
+
+# next.js
 .next/
-bulid/
+out/
+
+# production
+build/
+dist/
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# misc
+.DS_Store
+*.log
+.env*
